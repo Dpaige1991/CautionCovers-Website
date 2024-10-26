@@ -15,22 +15,15 @@
                 <img src="images/menu.png" class="menu-icons" alt="">
             </label>
             <nav class="navbar">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Videos</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
             </nav>
         </div>
 
         <div class="header-content container">
             <div class="header-txt">
-                <h1>Keeping Our Roads Safe...One Driver At A Time</h1>
+                <h1>It's Our Goal To Make Roads Safer...One Driver At A Time</h1>
                 <p>
                     Stay safe on roads with our steering wheel covers with hashtags and quotes. Check out our promos and product below.
                 </p>
-                <a href="#" class="btn-1">Information</a>
             </div>
             <div class="header.jpg">
                 <a href="#">
@@ -47,31 +40,25 @@
     </header>
 
     <main class="tours container">
-        <h2>Destinations</h2>
-        <p>Here are all of our wonderful products.</p>
+        <h2>Products</h2>
+        <p>Here are all of our wonderful products to keep you safe on your daily travels.</p>
         <div class="tour-content">
             <div class="tour-1">
                 <div class="tour-txt">
-                    <h3>Product 1</h3>
-                    <p>Details</p>
+                    <h3></h3>
+                    <p></p>
                 </div>
             </div>
             <div class="tour-2">
                 <div class="tour-txt">
-                    <h3>Product 2</h3>
-                    <p>Details</p>
+                    <h3></h3>
+                    <p></p>
                 </div>
             </div>
             <div class="tour-3">
                 <div class="tour-txt">
-                    <h3>Product 3</h3>
-                    <p>Details</p>
-                </div>
-            </div>
-            <div class="tour-4">
-                <div class="tour-txt">
-                    <h3>Product 4</h3>
-                    <p>Details</p>
+                    <h3></h3>
+                    <p></p>
                 </div>
             </div>
         </div>
@@ -100,16 +87,16 @@
     <footer>
         <div class="footer-bg">
             <h2>Contact Us</h2>
-            <form>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="7990cf14-2dbb-4c90-a190-3db5e81baf93">
                 <div class="campo-1">
-                    <input class="campo" type="text" placeholder="Name">
-                    <input class="campo" type="number" placeholder="Telephone">
+                    <input class="campo" type="text" name="name" placeholder="Name" required>
+                    <input class="campo" type="number" name="phone" placeholder="Telephone" required>
                 </div>
                 <div class="campo-1">
-                    <input class="campo" type="text" placeholder="Direction">
-                    <input class="campo" type="number" placeholder="Mail">
+                    <input class="campo1" type="number" name="email" placeholder="Mail">
                 </div>
-                <textarea class="campo" cols="30" rows="10" placeholder="Message"></textarea>
+                <textarea class="campo" cols="30" rows="10" placeholder="Message" name="message" required></textarea>
                 <input type="submit" class="btn-1" value="Send">
             </form>
         </div>
